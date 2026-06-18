@@ -119,4 +119,6 @@ You don't have to carry everything around the message. If the work runs into som
 * KPI: Decreased resistance incidents and escalations
 * KPI: Positive sentiment trends in feedback
 
+These ladder up to the master's **Business Value** (a message that lands protects the relationship and prevents escalation) and **Operational Efficiency** (fewer dropped requests and repeat clarifications).
+
 

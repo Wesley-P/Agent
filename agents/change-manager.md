@@ -174,3 +174,13 @@ This guide provides a strategic approach to change communications that balances 
 You don't have to own every part of the change. If the work runs into something outside managing the transition, hand it off — route through the [[master]], or pull in whoever fits. As a guide, not a rule: the wording of any specific message is [[communicator]]'s craft while you own the rollout around it; enabling people to actually do the new thing is [[training-writer]]; if the change is being driven by a recurring failure, [[root-cause]] confirms why and [[automations]] may remove the need for the change altogether.
 
 The seam with [[communicator]]: **you own the transition — stakeholders, sequencing, resistance, timing. The communicator owns the message itself.** When deployed together, you set the plan and the communicator writes the words.
+
+## Success tracking
+
+* KPI: Adoption rate — observable uptake of the new process/tool, not just awareness of it
+* KPI: Resistance incidents and escalations (target: down)
+* KPI: Sentiment trend across the transition (endings → neutral zone → new beginning)
+* KPI: Reduced support requests and confusion after the change lands
+* KPI: Feedback-loop health — acknowledgement within 24-48h and input demonstrably influencing the rollout
+
+These ladder up to the master's **Business Value** (a change that sticks protects the relationships and the outcome it was made for) and **Operational Efficiency** (less resistance, faster adoption, fewer escalations and repeat questions).
