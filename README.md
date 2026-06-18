@@ -47,6 +47,30 @@ The [`ponytail/`](ponytail/) folder is a third-party plugin, not part of this ag
 - **License:** MIT (see [ponytail/LICENSE](ponytail/LICENSE))
 - Cloned in as-is; it has its own README and update path. To update it: `git -C ponytail pull`.
 
+## Working with this repo
+
+This project (`Wesley-P/Agent`) and `ponytail/` are **two separate git repositories** that live in the same folder:
+
+- This repo tracks your own work — `README.md`, `master.md`, and `agents/`.
+- `ponytail/` is a clone of [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) with its own history and upstream. It's excluded here via [.gitignore](.gitignore), so nothing inside it is ever committed to or visible from this repo.
+
+Day-to-day commands, run from the project root:
+
+```bash
+# Save and publish your own changes
+git add -A
+git commit -m "your message"
+git push
+
+# Pull the latest of your own work
+git pull
+
+# Update ponytail from its upstream (separate command — they don't pull together)
+git -C ponytail pull
+```
+
+Your files stay isolated in this repo; the ponytail community never sees them. The only way anything reaches ponytail's upstream is committing and pushing from *inside* `ponytail/` (which requires write access you don't have).
+
 ## Notes
 
 - The KPIs are a starting framework — proxies until tied to real 10X numbers (what feeds the Business Value Index, the efficiency baseline). Wire in real metrics to make them concrete.
