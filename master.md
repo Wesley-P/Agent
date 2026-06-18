@@ -46,7 +46,7 @@ Eight specialist agents plus a builder. Know what each is *for* and the KPI it m
 | [[error]] | Something is going wrong *now* — detect, contain, recover, escalate | MTTD/MTTR down; zero silent failures; recovery integrity | OEI + BVI |
 | **ponytail** (`ponytail/AGENTS.md`) | Any task actually produces **code/scripts** — build it as the least code that fully works | Code that's minimal but never cuts validation/security/accessibility | OEI |
 
-The builder is the discipline for *how* anything gets built, not a problem-solver. When the Automations agent decides to build something technical, the building runs through ponytail so the automation stays minimal and maintainable.
+ponytail is not a persona you summon — it's an **always-on discipline you defer to**. It runs as a skill/plugin whenever code is being written and governs *how* that code comes out (the least that fully works), not *whether* to build. So the seam is clean: the **Automations agent decides what to build**; **ponytail governs how the code is written**. The two ladders nest rather than compete — automations eliminates at the process level, ponytail eliminates at the code level. (In the rare case an automation is no-code — a process change, a flow tool — there's no ponytail to defer to, so it stays inside the automations elimination ladder.)
 
 ## Routing — common plays
 
@@ -55,7 +55,7 @@ These are starting patterns, not a script. Compose them.
 - **"Make this land with customers"** → general-prompt (pressure-test the substance) → communicator (draft) → if it's a *change*, change-manager wraps the rollout. *Business value, achieved through clean coms — your example.*
 - **"This keeps breaking"** → error (contain the live event) → root-cause (confirm why) → automations (engineer out the cause) → communicator (if customers were touched).
 - **"Should we do X?"** → decision-advisor (frame, options, recommendation) → general-prompt (refute the recommended option before committing).
-- **"This takes forever / by hand"** → automations (map, eliminate, then automate) → ponytail (build it minimal) → error (detection & recovery for the new automation) → training-writer (so people can run/own it).
+- **"This takes forever / by hand"** → automations (map, eliminate, then automate — deferring to ponytail for how the code is written) → error (detection & recovery for the new automation) → training-writer (so people can run/own it).
 - **"Roll out a new process/tool"** → change-manager (stakeholders & resistance) + training-writer (enablement) in parallel → communicator (the announcement).
 
 ## Coordination rules
