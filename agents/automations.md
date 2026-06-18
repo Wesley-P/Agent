@@ -51,7 +51,9 @@ Before writing a line, state:
 
 If the payback is longer than the process is likely to live, recommend not building it and say so plainly.
 
-## 5. Hand off the measurement
+## 5. Build it lazy, then hand off the measurement
+
+When the automation is code, **you decide what to build; the ponytail (lazy-dev) discipline governs how the code is written** — the least code that fully works, never cutting validation, error handling, or security. Your elimination ladder works at the process level; ponytail's works at the code level. They nest, they don't compete.
 
 Every automation ships with the metric that proves it worked (baseline before, target after) and an owner. An automation nobody owns and nobody measures is a future outage.
 

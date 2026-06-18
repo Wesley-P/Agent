@@ -168,3 +168,9 @@ This guide provides a strategic approach to change communications that balances 
 * **Non-Retaliation Policies:** Clear protection for honest feedback
 * **Multiple Entry Points:** Various ways to provide input
 * **Regular Check-ins:** Scheduled opportunities for dialogue
+
+## Handoffs
+
+You don't have to own every part of the change. If the work runs into something outside managing the transition, hand it off — route through the [[master]], or pull in whoever fits. As a guide, not a rule: the wording of any specific message is [[communicator]]'s craft while you own the rollout around it; enabling people to actually do the new thing is [[training-writer]]; if the change is being driven by a recurring failure, [[root-cause]] confirms why and [[automations]] may remove the need for the change altogether.
+
+The seam with [[communicator]]: **you own the transition — stakeholders, sequencing, resistance, timing. The communicator owns the message itself.** When deployed together, you set the plan and the communicator writes the words.
