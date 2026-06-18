@@ -74,4 +74,4 @@ Your files stay isolated in this repo; the ponytail community never sees them. T
 ## Notes
 
 - The KPIs are a starting framework — proxies until tied to real 10X numbers (what feeds the Business Value Index, the efficiency baseline). Wire in real metrics to make them concrete.
-- `decision-advisor.md`, `training-writer.md`, and `general-prompt.md` don't yet have explicit "Success tracking" sections; the master references KPIs for them, but the source files don't define them.
+- All eight personas now carry a `Success tracking` section that ladders to the Outcome Index, and each cross-links the others as soft "handoff if you need help" notes (route through the master, not rigid chains).
